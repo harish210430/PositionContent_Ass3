@@ -59,13 +59,9 @@ body{
 
 .header{
     background-color: #0b75c6;
-    padding: 30px;
-    line-height: 50px;
-    
+    height: 80px;
+    line-height: 80px;
 }
-/* .nav{
-    padding: 30px 100px;
-} */
 .link{
     float: right;
 }
@@ -75,79 +71,85 @@ body{
     margin-left: 15px;
     font-size: 13px;
 }
-.one{
+.brand{
     float: left;
 }
-.one a{
+.brand a{
     color: #d3d8de;
+    text-decoration: none;
     font-weight: 600;
-}
-
-.section{
-    text-align: center;
-    font-size: 16px;
-    color: #d7d1d1;
-    padding: 50px 0;
-    margin-top: 70px;
-}
-.section h1{
-    font-size: 48px; 
-}
-.section p{
-    /* padding: 25px 0; */
-    font-size: 14px;
-    color: #aeaeae;
-    font-weight: 500;
 }
 .container{
     max-width: 1200px;
     margin: 0 auto;
-    padding: 35px 80px;
+    padding: 0 32px;
+}
+.section1{
+    background-color: #0b75c6;
+    text-align: center;
+    font-size: 16px;
+    color: #d7d1d1;
+    padding: 100px 0;
+}
+.section1 h1{
+    font-size: 48px; 
+}
+.section1 p{
+    font-size: 14px;
+    color: #aeaeae;
+    font-weight: 500;
 }
 .artical{
     float: left;
     width: 27.3%;
     margin: 3%;
 }
-h2{
-    font-size: 22px;
-    color: #357db5;
-    font-weight: bold;
-}
-p{
+
+/* General Elements */
+.artical-text, p{
     font-size: 14px;
     font-weight: 600;
     padding: 15px 0;
     color: rgb(166, 164, 164);
 }
+.artical-heading, h2{
+    font-size: 20px;
+    color: #357db5;
+    font-weight: bold;
+}
 .More-btn{
-    line-height: 50px;
     background-color: #357db5;
     color: #fff;
     text-decoration: none;
     padding: 7px 10px;
     font-weight: 600;
+    display: inline-block;
 }
-.section2{
+.padding{
+    padding: 60px 0;
+}
+
+
+
+
+.section3{
     background-color: #0b75c6;
+    text-align: center;
 }
 .heading{
     font-size: 36px;
     color: #fff;
     font-weight: 100;
-    text-align: center;
 }
-.para{
-    text-align: center;
-}
+
 .image{
     float: left;
     width: 21%;
-    border: 1px solid rgb(186, 185, 185);
+    border: 1px solid #82a5d1;
     margin: 3% 2%;
 }
 .image img{
-    width: 100%;
+    width: 220px;
     height: 250px;
     object-fit: cover;
     border-radius: 50%;
@@ -164,14 +166,14 @@ h3{
     padding: 0 0;
     margin-bottom: 10px;
 }
-.section3 h2{
+
+
+.section4 h2{
     font-size: 30px;
     text-align: center;
 }
-h4{
-    font-size: 20px;
-    color: #4d7ea3;
-    font-weight: 600;
+.para{
+    text-align: center;
 }
 .location{
     width: 46%;
@@ -182,22 +184,26 @@ h4{
     width: 100%;
     height: 160px;
     object-fit: cover;
-    margin: 10px 0;
+    margin: 20px 0;
 }
-hr{
-    margin-bottom: 50px;
-    border: 1px solid #d3d8de;
+
+
+small{
+    color: #bebbbb;
+    font-size: 13px;
 }
-.footer-para{
-    color: #cfcdcd;
+.footer{
+    padding: 30px 0;
+    border-top: 1px solid #777777;
+    margin-top: 40px;
 }
-.footer-link{
+.footer nav{
     float: right;
 }
-.footer-link a{
+.footer a{
+    color: #357db5;
     margin-left: 20px;
-    color: #4d7ea3;
-    padding-bottom: 50px;
+    text-decoration: none;
 }
 
 .clearfix::before, .clearfix::after{
